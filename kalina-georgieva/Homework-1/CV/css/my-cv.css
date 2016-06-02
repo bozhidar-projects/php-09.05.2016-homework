@@ -1,0 +1,170 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	background-color: #fff;
+	
+
+}
+p{
+	margin:10px 0;
+}
+
+#header{
+	padding:50px 0;
+    
+	background-color:#EFEDE4;
+	background-attachment: fixed;
+	background-size:cover;
+	font-size:22px;
+
+}
+h1.fname{
+	color:#fff;
+	font-size:1.55em;
+	font-weight:300;
+	margin-bottom:0px;
+	letter-spacing:-3px;
+}
+h1.lname{
+	color:#C84A85;
+	font-size:2em;
+	font-weight:300;
+	margin-top:-12px;
+	letter-spacing:-5px;
+}
+h3.job{
+	font-size:1em;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#383838;
+}
+main{
+	background-color: #fff;
+}
+#main-content{
+    margin:50px auto 0;  
+}
+
+.info{
+	/*border-right:1px dotted #ddd;*/
+	padding-right:30px;
+		
+}
+
+.biography{
+	border-left:1px dotted #ddd;
+	
+	padding:0px 0 0px 30px;
+}
+
+/*HEADINGS*/
+.about-title{
+    /*background-color:#d0cabf;*/
+	    color: #A0A0A0;
+    padding: 7px 15px;
+    border-right: 4px double #9A9A9A;
+	letter-spacing:-1.5px;
+	margin:10px 0;
+}
+
+.bio-title{
+    /*background-color:#622863; */
+    color:#282828;
+	padding:7px 25px;
+	border-right: 4px double #FF5B4A;
+	letter-spacing:-1.5px;
+}
+
+.border-square-heading{
+	/*border: 2px solid #52658F;*/
+	padding:5px 25px;
+        border-width:1px;
+        border-style: solid;
+	border-image: linear-gradient(to right,#cc4c9a,#b6412f) 1;
+	
+
+	text-transform: uppercase;
+    background-color:#fff;
+    color: #282828;
+}
+blockquote {
+    padding:0;
+    font-family: 'News Cycle', sans-serif;
+    border-left: 0px dotted #FF5B4A;
+}
+
+blockquote:before {
+  color:#F554B6;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+  text-align:justify;
+}
+
+.about-section{
+	padding:10px 10px;
+	margin-bottom:5px;
+
+}
+.date{
+	/*background-color:#6ed3cf;*/
+	color:#282828;
+	font-weight:400; 
+	/*padding:4px 8px;*/
+}
+.orange-point{
+	color:#C84A85;
+	font-size:18px;
+}
+
+.lang-point{
+	color:#FF5B4A;
+	font-size:18px;
+}
+.grey-point{
+	color:#bbb;
+	font-size:18px;
+}
+
+.skill{
+	padding:5px 0;
+}
+
+.skill-item{
+	width:110px; display:inline-block;
+}
+
+ul li.hobby{
+  padding:4px 8px;
+  margin-bottom:5px;
+  background-color:#fff;
+  /*border:2px solid #FF3b3f;*/
+  color:#383838;
+  font-weight:500;
+  border-style:solid;
+  border-image: linear-gradient(to left,#cc4c9a,#b6412f) 1;
+  border-width:1px;
+}
+#footer{
+   padding:20px 0;
+   background-color:#252525;
+   margin-top:20px;
+   color:#f9f9f9;
+}
+#footer p {
+font-style:italic;
+}
+@media (min-width: 1200px){
+	.container{width:1150px;}
+}
+
+
+
+
+
