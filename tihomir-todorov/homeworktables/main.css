@@ -1,0 +1,108 @@
+body{
+	background-image: url(http://image.shutterstock.com/z/stock-vector-cartoon-style-math-learning-game-illustration-mathematical-arithmetic-logic-operator-symbols-icon-305241719.jpg);
+	font-size: 1;
+}
+span{
+	-webkit-box-shadow: 10px 10px 88px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 88px -2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 88px -2px rgba(0,0,0,0.75);
+background-color: rgb(200,200,200);
+}
+h1{
+	text-align: center;
+	font-size: 2em;
+	font-family: Arial;
+	color: blue;
+	}
+caption{
+	border:2px solid black;
+	font-size: 20px;
+	color: white;
+	font-family:  monospace;
+background: -moz-linear-gradient(top,  rgba(240,183,161,1) 0%, rgba(117,34,1,1) 38%, rgba(117,34,1,1) 38%, rgba(140,51,16,1) 66%, rgba(191,110,78,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 38%,rgba(117,34,1,1) 38%,rgba(140,51,16,1) 66%,rgba(191,110,78,1) 100%);
+background: linear-gradient(to bottom,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 38%,rgba(117,34,1,1) 38%,rgba(140,51,16,1) 66%,rgba(191,110,78,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 );
+-webkit-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+
+
+-webkit-border-radius: 30px;
+-webkit-border-bottom-right-radius: 400px;
+-webkit-border-bottom-left-radius: 400px;
+-moz-border-radius: 30px;
+-moz-border-radius-bottomright: 400px;
+-moz-border-radius-bottomleft: 400px;
+border-radius: 30px;
+border-bottom-right-radius: 400px;
+border-bottom-left-radius: 400px;
+-webkit-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+
+
+}
+#first-table{
+	border:2px solid black;
+	margin-bottom: 15px;
+	margin-left: 5em;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+}
+
+th , td{
+	border: solid black;
+	height: 50px;
+	width: 150px;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+}
+td{
+	padding-left: 11em;
+	padding-right: 6em;
+	font-family: monospace;
+	font-size: 1.5em;
+}
+th{
+	font-size: 20px;
+	background: rgb(240,183,161);
+
+	background: rgb(0,183,234);
+background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );
+-webkit-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+
+
+
+}
+#second-table{
+	border:2px solid black;
+	margin-bottom: 15px;
+	margin-left: 5em;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+}
+#third-table{
+	border:2px solid black;
+	margin-left: 21em;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 68px -9px rgba(0,0,0,0.75);
+
+}
