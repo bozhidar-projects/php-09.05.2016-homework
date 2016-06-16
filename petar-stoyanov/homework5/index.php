@@ -13,8 +13,9 @@
 	echo "<div class='container'>";
 	echo "<table>
 		<tr>
-		<th colspan='4'>Students table</th>
+		<th colspan='5'>Students table</th>
 		</tr>
+		<th>#</th>
 		<th>First Name</th>
 		<th>Last Name</th>
 		<th>Mobile Number</th>
@@ -33,18 +34,25 @@
 			array("Tihomir", "Todorov", "0878635344", "unknown"),
 			array("Petar", "Stoyanov", "0898437837", "MG"),
 		);
-	foreach ($students as $value) {
-		echo "<tr>";
+	$n = 1;
+	foreach ($students as $k => $value) {
+		echo "<tr><td>";
+		echo "<div class='table'>";
+		echo $k;
+		echo "</div>";
+		echo "</td>";
 		foreach ($value as $in_value) {
 			echo "<td>";
 			echo "<div class='table'>";
-			echo $in_value;
+			echo $in_value . " ";
 			echo "</div>";
 			echo "</td>";
 		}
-		echo "</tr>";
+		echo "</li></tr>";
+		echo "</ol>";
 		
 	}
+	unset($n);
 	echo "</table></div>";
 
 	$dictionary = array(
