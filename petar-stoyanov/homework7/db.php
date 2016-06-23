@@ -1,4 +1,22 @@
 <?php
+	if(isset($_POST['from'])&&isset($_POST['to'])&&isset($_POST['message'])) {
+		// ## Tried to add the message to an array##
+		// if(isset($messages)=="false") {
+		// 	$messages = array(
+		// 		array("from"=>"","to"=>"","message"=>"")
+		// 		);		
+		// }
+		// $messages[] = array("from"=>$_POST['from'],"to"=>$_POST['to'],"message"=>$_POST['message']);
+		include("header.php");
+		echo "<div class='container'><div class='members'>";
+		echo "<h3>Your message is sent:</h3>";
+		echo "From: ".$_POST['from']."<br>";
+		echo "To: ".$_POST['to']."<br>";
+		echo "Message:".$_POST['message']."<br>";
+		echo "<a href='contacts.php'>Return</a>";
+		echo "</div></div>";
+		include("footer.php");
+	}
 	$travelling = array(
 		array(
 	"title" => "Experience Dubai",
