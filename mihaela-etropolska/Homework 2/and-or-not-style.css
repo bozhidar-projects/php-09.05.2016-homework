@@ -1,0 +1,30 @@
+table {
+	border: 2px solid black;
+	float: left;
+	margin-right: 100px;
+	width: 400px;
+	height: 250px;
+}
+
+th {
+	width: 20px;
+	height: 27px;
+}
+
+td {
+	border: 1px dotted;
+	font-size: 25px;
+	text-align: center;
+}
+
+caption {
+	margin: 20px;
+}
+
+.false {
+	background-color: red;
+}
+
+.true {
+	background-color: green;
+}
