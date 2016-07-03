@@ -1,0 +1,11 @@
+<?php
+	include("db.php");
+	include("header.php");
+	include("left-sidebar.php");
+	include("content1.php");
+	include("section2.php");
+	include("content2.php");
+	include("section3.php");
+	include("content3.php");
+	include("footer.php");
+?>
