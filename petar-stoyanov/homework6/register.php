@@ -12,16 +12,33 @@
 	<?php
 		$add="";
 		$rem="";
-		$countries = array("Bulgaria");
+		$countries = array();
+		$file = fopen("countries.csv", "r");
+		$countries = explode(",", fgets($file));
+		fclose($file);
 		if(isset($_GET['remove']) && isset($_GET['country'])) {
 			$add = $_GET['country'];
-			$rem = $_GET['remove'];
-		}
-		if($add != "") {
-			array_push($countries, $add);
-		}
-		if($rem != "none") {
-			$countries = array_diff($countries, ["$rem"]);
+			$rem = $_GET['remove'];		
+			if($add != "") {
+				array_push($countries, $add);				
+				$file = fopen("countries.csv", "w");
+				fwrite($file, implode(",", $countries));
+				fclose($file);
+			}
+			if($rem != "none") {
+				for ($i=0; $i < count($countries); $i++) { 
+					if($countries[$i] == $rem) {
+						unset($countries[$i]);
+						echo "cntr = ".$countries[$i]."<br>";
+						echo "rem = ".$rem;
+					}					
+				}
+				echo "<pre>".print_r($countries)."</pre>";
+				$file = fopen("countries.csv", "w");
+				fwrite($file, implode(",", $countries));
+				fclose($file);
+				header("Location: register.php");
+			}
 		}
 	?>
 	<div class="container">
