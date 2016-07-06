@@ -1,0 +1,13 @@
+table {
+			border: solid black 2px;
+			margin-bottom: 10px;
+			}
+			td{
+			border: solid black 1px
+			}
+			.color1{
+				color: green;
+			}
+			.color2{
+				color: red;
+			}
