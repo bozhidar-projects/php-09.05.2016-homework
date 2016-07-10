@@ -1,0 +1,40 @@
+body {
+	background-image: url("nyc_background1.jpg");
+	background-size: 1500px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+	font-family: arial, verdana, sans-serif;
+}
+
+form {
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f6f8f9 0%, #e5ebee 12%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f6f8f9 0%,#e5ebee 12%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f6f8f9 0%,#e5ebee 12%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 */
+
+	vertical-align: middle;
+}
+
+label {
+	display: inline-block;
+	width: 150px;	
+}
+
+table {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+
+	border: 1px solid black;
+	width: 300px;
+	display: inline-block;
+}
+
+#login-form {
+	position: center;
+}
