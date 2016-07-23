@@ -1,0 +1,13 @@
+#left-sidebar {
+	float: left;
+	width: 200px;
+}
+
+main {
+	margin-left: 200px;
+}
+
+.add-form>label {
+	display:inline-block;
+	width: 150px;
+}
