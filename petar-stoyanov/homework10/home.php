@@ -10,7 +10,10 @@ switch ($page) {
 		break;
 	case 'users':
 		manage_records($column_names2, $users, "add-user-service.php", "remove-user-service.php");
-		break;	
+		break;
+	case 'database':
+		include("convert.php");
+		break;
 	default:
 		echo "Error";
 		break;

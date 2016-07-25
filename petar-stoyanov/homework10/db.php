@@ -17,7 +17,7 @@
 		if ($database_connection->error) {
 			die("Error in execution".$database_connection->error);
 		}
-		if ($check != 0) { // added this, because wanted to have the option of having imput from the query
+		if ($check != 0) { // added this, because wanted to have the option of having output from the query
 			$rez = $database_connection->query($sql);
 			return $rez;
 		}
