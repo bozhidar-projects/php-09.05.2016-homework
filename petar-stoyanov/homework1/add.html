@@ -1,0 +1,53 @@
+<!doctype html>
+	<head>
+	<title>Add new employer and skills</title>
+	
+	</head>
+<body>
+	<h3>Add new information to the CV:</h3>
+	<form action="submit.html" method="get">
+
+		<fieldset>
+			<legend>Company info</legend>
+			<label for="comp-name">Company Name</label>
+			<input id="comp-name" type="name" name="comp-name" placeholder="Company Name"><br>
+			
+			<label for="comp-ctr">Country of origin</label>
+			<input id="comp-ctr" type="country" name="comp-ctr" placeholder="Country of origin"><br>
+
+			<label for="comp-site">Company's Web site</label>
+			<input id="comp-site" type="url" name="comp-site" placeholder="Webpage of the company"><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Period of work</legend>
+			<label for="date-start">Start date</label>
+			<input id="date-start" type="date" name="start-date">
+
+			<label for="comp-name">End date</label>
+			<input id="date-end" type="date" name="date-end"><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Skills Earned</legend>
+			<label for="nskill1">Skills Earned</label>
+			<textarea id="nskill1" name="nskill1" rows="1" placeholder="New skill"></textarea>
+			<label for="nlevel1">Level of the skill</label>
+			<input id="nlevel1" name="nlevel1" type="range" min="0" max="20"><br>
+
+			<label for="skill2">Skills Earned</label>
+			<textarea id="nskill2" name="nskill2"  rows="1" placeholder="New skill"></textarea>
+			<label for="nlevel2">Level of the skill</label>
+			<input id="nlevel2" name="nlevel2" type="range" min="0" max="20"><br>
+
+			<label for="nskill3">Skills Earned</label>
+			<textarea id="nskill3" name="nskil3" rows="1" placeholder="New skill"></textarea>
+			<label for="nlevel3">Level of the skill</label>
+			<input id="nlevel3" name="nlevel3" type="range" min="0" max="20">
+		</fieldset>
+		<br style="line-height:5px">
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+		<button type="button" onclick="window.close()">X</button>
+	</form>
+</body>

@@ -1,0 +1,54 @@
+body {
+	background-image: url(http://holscherdesign.com/wp-content/uploads/Gradient-Background_17.jpg);
+}
+
+main {
+	margin-left: 30%;
+}
+
+h4,h2 {
+	text-align: center;
+	margin: 2px 0px 5px 0px;
+}
+
+h2.title {
+	margin: auto;
+	position: center;
+	width: 30%;
+	/*shadow*/
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+	/*radius*/
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+}
+
+.excercise {
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin: 20px;
+	/*shadow*/
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.wrapper {
+	min-height: 90%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 90%;
+}
+.footer {
+	height: 90px; /* .push must be the same height as .footer */
+	clear: left;
+}
+
+/*footer {
+	clear: left;
+	height: 155px;
+	margin-bottom: 0px;
+}*/
