@@ -1,0 +1,13 @@
+<?php
+	include("db_travelling.php");
+	include("db_sport.php");
+	include("db_makeup.php");
+	include("header.php");
+	include("left-sidebar.php");
+	include("content-travelling.php");
+	include("section2.php");
+	include("content-sport.php");
+	include("section3.php");
+	include("content-makeup.php");
+	include("footer.php");
+?>

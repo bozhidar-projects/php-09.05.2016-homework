@@ -1,0 +1,20 @@
+<?php
+	foreach ($members as $member) {
+		echo "<table>";
+		echo "<th>";
+		echo "<td>" . "Firstname" . "</td>";
+		echo "<td>" . "Lastname" . "</td>";
+		echo "<td>" . "Image" . "</td>";
+		echo "<td>" . "Phone" . "</td>";
+		echo "<td>" . "University" . "</td>";
+		echo "</th>";
+		echo "<tr>";
+		echo "<td>" . $member['firstname'] . "</td>";
+		echo "<td>" . $member['lastname'] . "</td>";
+		echo "<td>" . $member['image'] . "</td>";
+		echo "<td>" . $member['phone'] . "</td>";
+		echo "<td>" . $member['university'] . "</td>";
+		echo "</tr>";
+		echo "</table>";
+	}
+?>
