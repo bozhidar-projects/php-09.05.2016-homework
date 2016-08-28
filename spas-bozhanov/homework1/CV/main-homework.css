@@ -1,0 +1,256 @@
+html {
+	font-family: arial, verdana, sans-serif;
+}
+
+body {
+	background-image: url(Background-Template.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.site-header {
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 11%, #b5c6d0 77%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */
+
+	overflow: auto;
+
+	margin: auto;
+	border: 1px solid black;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+.main-picture {
+	float: left;
+}
+
+.main-heading {
+	float: left;
+	margin-left: 100px;
+	padding-top: 1em;
+}
+
+.top-navigation {
+
+	background: #d8e0de; /* Old browsers */
+	background: -moz-linear-gradient(left,  #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 100%, #0e0e0e 100%, #4e5c5a 101%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 100%,#0e0e0e 100%,#4e5c5a 101%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 100%,#0e0e0e 100%,#4e5c5a 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#4e5c5a',GradientType=1 ); /* IE6-9 */
+
+	clear: both;
+	text-align: center;
+	padding: 3px;
+	border-top: 1px solid black;
+}
+
+.top-navigation a {
+	background-color: transparent;
+	color:#0E0E0E;
+	font-size: 1.2em;
+	text-decoration: none;
+	border-right: 2px solid white;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.top-navigation a:first-child {
+	border-left: 2px solid white;
+}
+
+.top-navigation a:visited {
+	background-color: transparent;
+	color:#0E0E0E;
+}
+
+.top-navigation a:hover {
+	background-color: #0E0E0E;
+	color: white;
+}
+
+.side-information {
+	float: left;
+	width: 200px;
+	padding-left: 10px;
+}
+
+.side-information a {
+	background-color: transparent;
+	text-decoration: none;
+	color: black;
+}
+
+.side-information a:visited {
+	background-color: transparent;
+	color: black;
+}
+
+.side-information a:hover {
+	background-color: grey;
+	color: white;
+}
+
+main {
+	padding-top: 0.5em;
+}
+
+aside {
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f6f8f9 0%, #d7dee3 27%, #d7dee3 27%, #e5ebee 50%, #f5f7f9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f6f8f9 0%,#d7dee3 27%,#d7dee3 27%,#e5ebee 50%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f6f8f9 0%,#d7dee3 27%,#d7dee3 27%,#e5ebee 50%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 */
+
+	border: 1px solid black;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+#main-page main>section {
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 11%, #b5c6d0 77%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */	
+
+	border: 1px solid black;
+	height: 400px;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+#personal-information-page main>section {
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 11%, #b5c6d0 77%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */	
+
+	border: 1px solid black;
+	height: 350px;
+	margin-left: 220px;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+#work-experience-page main>section {
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 11%, #b5c6d0 77%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */	
+
+	border: 1px solid black;
+	height: auto;
+	margin-left: 220px;
+	margin-bottom: 10px;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+#education-page main>section {
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 11%, #b5c6d0 77%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */	
+
+	border: 1px solid black;
+	height: auto;
+	margin-left: 220px;
+	margin-bottom: 10px;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+#personal-skills-page main>section {
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 11%, #b5c6d0 77%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 11%,#b5c6d0 77%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */	
+
+	border: 1px solid black;
+	height: auto;
+	margin-left: 220px;
+
+	-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+#main-page h1 {
+	padding-top: 3em;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 3px;
+}
+
+#main-page main>section>p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+dl:hover {
+	background-color: grey;
+	color: white;
+}
+
+dt {
+	padding-left: 1em; 
+	font-weight: bold;
+}
+
+dd {
+	padding-left: 3em;
+}
+
+button {
+	margin-left: 0.3em;
+}
+
+footer>section {
+	color: lightgrey;
+}
+
+#form-date {
+		font-family: arial, verdana, sans-serif;
+	}
+
+#form-position {
+	width: 40%;
+}
+
+#form-country {
+	width: 40%;
+}
+
+#form-employer {
+	width: 40%;
+}
+
+#form-education {
+	width: 40%;
+}
+
+#form-about {
+	width: 40%;
+}
+
+#form-business {
+	width: 40%;
+}
