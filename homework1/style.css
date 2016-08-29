@@ -1,0 +1,74 @@
+body{
+	background-color: #3399ff;
+}
+header,nav{
+	text-align: center;
+}
+nav{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+}
+
+#navig{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+#navig li{
+	display: inline-block;
+	float: left;
+	padding: 2px 2px;
+}
+.odd{
+	background-color: white;	
+}
+.even{
+		background-color: #00FF00;
+}
+.middle{
+	background-color: red;
+}
+#navig li a{
+	color: black;
+	text-decoration: none;
+	}
+
+hr{
+	width: 50%;
+}
+p{
+	font-size: 20px;
+	padding-left: 35%;
+	padding-right: 35%;
+}
+ul.languages{
+	padding-left: 38%;
+}
+li{
+	font-size: 20px;
+}
+ol{
+	padding-left: 38%;
+}
+p.pr{
+	padding-left: 25%;
+	padding-right: 25%;
+}
+ol.study{
+	padding-left: 27%;
+	padding-right: 27%;
+}
+.arrow{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.arrow_img{
+width:40px;
+height: 40px;
+}
