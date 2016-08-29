@@ -12,16 +12,19 @@ nav{
 }
 
 #navig{
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 	text-align: center;
 
+}
+h2{
+	text-align: center;
 }
 #navig li{
 	display: inline-block;
 	float: left;
 	background-color: white;
-	padding: 2px 5px;
+	padding: 2px 2px;
 }
 #navig li a{
 	color: black;
