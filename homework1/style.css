@@ -15,7 +15,6 @@ nav{
 	display: inline-block;
 	list-style-type: none;
 	text-align: center;
-
 }
 h2{
 	text-align: center;
@@ -23,8 +22,16 @@ h2{
 #navig li{
 	display: inline-block;
 	float: left;
-	background-color: white;
 	padding: 2px 2px;
+}
+.odd{
+	background-color: white;	
+}
+.even{
+		background-color: #00FF00;
+}
+.middle{
+	background-color: red;
 }
 #navig li a{
 	color: black;
