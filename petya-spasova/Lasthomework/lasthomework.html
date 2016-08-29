@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <link rel="stylesheet" type="text/css" href="lasthomework.css">
+
+	<script type="text/javascript">
+		var operandA = 0;
+		var operandB = 0;
+		var operator = undefined;
+
+		function operandClicked(event) {
+			if (operator == undefined) {
+				var buttonValue = parseInt(event.target.innerHTML);
+				operandA = operandA*10 + buttonValue;
+				document.querySelector("#result").value = operandA;
+			} else {
+				var buttonValue = parseInt(event.target.innerHTML);
+				operandB = operandB*10 + buttonValue;
+				document.querySelector("#result").value = operandB;
+			}
+		}
+
+		function operatorClicked(event) {
+			var button = event.target;
+			operator = button.innerHTML;
+			document.querySelector("#result").value = "";
+		}
+
+		function onClear(event) {
+			operandA = 0;
+			operandB = 0;
+			operator = undefined;
+			document.querySelector("#result").value = "";
+		}
+
+
+
+		function onCalculate(event) {
+			var result = undefined;
+			if (operator == "+") {
+				result = operandA + operandB;
+			}
+
+			document.querySelector("#result").value = result;
+		}
+
+		function onCalculate(event) {
+			var result = undefined;
+			if (operator == "X") {
+				result = operandA * operandB;
+			}
+
+			document.querySelector("#result").value = result;
+		}
+
+		function onCalculate(event) {
+			var result = undefined;
+			if (operator == "&divide;") {
+				result = operandA / operandB;
+			}
+
+			document.querySelector("#result").value = result;
+		}
+
+		function onCalculate(event) {
+			var result = undefined;
+			if (operator == "-") {
+				result = operandA - operandB;
+			}
+
+			document.querySelector("#result").value = result;
+		}
+	</script>
+
+</head>
+<body>
+	<form>
+
+   <output id="result"></output><br>
+
+
+		<output id="result"></output><br>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">7</button>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">8</button>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">9</button>
+		<button class="operator" type="button" onclick="operatorClicked(event)">&radic;</button>
+		<button class="operator" type="button" onclick="operatorClicked(event)">%</button>
+			<br>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">4</button>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">5</button>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">6</button>
+		<button class="operator" type="button" onclick="operatorClicked(event)">-</button>
+		<button class="operator" type="button" onclick="operatorClicked(event)">+</button><br>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">1</button>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">2</button>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">3</button>
+		<button class="operator" type="button" onclick="operatorClicked(event)">X</button>
+		<button class="operator" type="button" onclick="operatorClicked(event)">&divide;</button>
+
+		<br>
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">0</button>	
+		<button class="operand" type="button" 
+			onclick="operandClicked(event)">.</button>
+
+
+		<button id="calculate" type="button" onclick="onCalculate(event)">=</button>
+		<button id="clear" type="button"  onclick="onClear(event)">C</button>
+	</form>
+
+</body>
+</html>
