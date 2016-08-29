@@ -1,0 +1,60 @@
+table{
+	border: 2px solid black;
+	width: 250px;
+	height: 300px;
+	background-color: #C0C0C0;
+	border-radius: 10px;
+}
+caption {
+	font-size: 20px;
+
+}
+
+td{
+	border: 3px solid black;
+	background-color: #4dd7ff;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+td:hover{
+	background-color: #4dfbff;
+	color:red;
+}
+
+td:active{
+	background-color:white;
+}
+
+#zero{
+	text-align: left;
+	padding-left: 20px;
+}
+#ravno{
+	padding-top: 30px;
+}
+#numbers{
+	text-align: right;
+	padding-right: 10px;
+}
+
+th{
+	border: 3px solid black;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px;
+}
+
+#firstTable{
+	background-color: black;
+	width: 300px;
+	height: 350px;
+}
+#secondTable{
+	margin: auto;
+}
+.black{
+	background-color: black;
+}

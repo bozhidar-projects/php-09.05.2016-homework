@@ -1,0 +1,15 @@
+table,th,tr,td{
+	border:1px solid black;
+}
+table{
+	width: 400px;
+	margin-bottom: 20px;
+}
+td{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+caption{
+	text-align: left;
+}

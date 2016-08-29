@@ -1,0 +1,42 @@
+table,th,tr,td{
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+table{
+	background-color: #f2f2f2;
+	width:250px;
+	height: 350px;
+}
+th{
+	background-color: white;
+}
+td{
+	text-align: center;
+	padding:2px 10px;
+}
+
+td:hover{
+	background-color: #ffd7b3;
+}
+
+td:active{
+	background-color:#e6e6ff;
+}
+
+#different{
+	border:none;
+}
+#different:active, #different:hover{
+	background-color: #f2f2f2;
+}
+.red{
+	background-color: #ff4d4d;
+}
+
+.grey{
+	background-color: #b3b3b3;
+}
+
+.gr{
+	background-color: #d9d9d9;
+}
